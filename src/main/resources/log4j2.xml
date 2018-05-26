@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="ERROR">
+    <appenders>
+        <File name="FILE" fileName="C:\Users\Лена\IdeaProjects\LabTask\src\main\java\com\training\epam\log\error.log">
+            <PatternLayout pattern="[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n" />
+        </File>
+    </appenders>
+    <loggers>
+        <root level="error">
+            <appender-ref ref="FILE"/>
+        </root>
+    </loggers>
+</configuration>
